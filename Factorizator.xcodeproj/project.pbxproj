@@ -15,6 +15,7 @@
 		C223B49726B5E0D8004A104C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C223B49526B5E0D8004A104C /* LaunchScreen.storyboard */; };
 		C223B4A226B5E0D9004A104C /* FactorizatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C223B4A126B5E0D9004A104C /* FactorizatorTests.swift */; };
 		C223B4AD26B5E0D9004A104C /* FactorizatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C223B4AC26B5E0D9004A104C /* FactorizatorUITests.swift */; };
+		C223B4BE26B5E3B2004A104C /* RefactorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C223B4BD26B5E3B2004A104C /* RefactorViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		C223B4A826B5E0D9004A104C /* FactorizatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FactorizatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C223B4AC26B5E0D9004A104C /* FactorizatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactorizatorUITests.swift; sourceTree = "<group>"; };
 		C223B4AE26B5E0D9004A104C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C223B4BD26B5E3B2004A104C /* RefactorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefactorViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				C223B49326B5E0D8004A104C /* Assets.xcassets */,
 				C223B49526B5E0D8004A104C /* LaunchScreen.storyboard */,
 				C223B49826B5E0D8004A104C /* Info.plist */,
+				C223B4BD26B5E3B2004A104C /* RefactorViewController.swift */,
 			);
 			path = Factorizator;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C223B4BE26B5E3B2004A104C /* RefactorViewController.swift in Sources */,
 				C223B48F26B5E0CC004A104C /* ViewController.swift in Sources */,
 				C223B48B26B5E0CC004A104C /* AppDelegate.swift in Sources */,
 				C223B48D26B5E0CC004A104C /* SceneDelegate.swift in Sources */,
